@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: font;
+    src: url(./font/Pangram-FullFamily-FreeForPersonalUse/Pangram-Regular.otf) 
+}
+body {
+    display: flex;
+    justify-content: center;
+    font-family: font;
+    background-color: #f1f1f1;
+}
+input[type=button]{
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10px;
+    width: 465px;
+    height: 655px;
+}
+.form {
+    margin-top: 5px;
+    width: 443px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 20px 118px 20px 100px;
+    padding: 5px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 20%, #d92e7f 40%, #9b36b7 65%, #515ecf);
+    animation: gradient 3s linear alternate-reverse infinite;
+    background-size: 400% 400%;
+    cursor: pointer;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+
+}
+.img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+    background: white;
+}
+.login {
+    background-color: #04AA6D;
+    color: #FFFFFF90;
+    width: 415px;
+    height: 37px;
+    border: none;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.username,.password {
+    border: 0.1px solid #D2D2D2;
+    border-radius: 5px;
+    width: 415px;
+    height: 37px;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.help {
+    display: flex;
+    justify-content: space-between;
+    background: #F1F1F1;
+    padding: 22px 15px 22px 15px;
+    align-items: center
+}
+.cancel {
+    width: 65px;
+    height: 30px;
+    background-color: #F44336;
+    color: white;
+    border: none;
+    font-size: 10px;
+}
+.checkbox {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.info__form {
+    border: 3px solid #F1F1F1;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+
