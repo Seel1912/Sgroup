@@ -83,6 +83,7 @@ input[type=button]{
 }
 .help span {
     float: right;
+    margin-top: 5px;
 }
 .cancel {
     width: 65px;
